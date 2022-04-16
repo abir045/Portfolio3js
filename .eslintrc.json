@@ -3,7 +3,12 @@
     "root": true,
     "extends": "next",
     "rules": {
-        "no-unused-vars": "off"
+        "no-unused-vars": [
+            "error",
+            {
+                "argsIgonrePattern" : "^_",
+                "varsIgonrePatter"  : "^_"
+
     }
 
 
