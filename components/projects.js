@@ -6,7 +6,7 @@ export const Title = ({ children }) => {
     return (
         <>
             <Box>
-                <NextLink href="/projects">
+                <NextLink href="/projects" passHref>
                     <Link>Projects</Link>
                 </NextLink>
                 <span>
