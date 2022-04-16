@@ -73,12 +73,6 @@ const Navbar = (props) => {
                     <Linkitem href="/projects" path={path}>
                         Projects
                     </Linkitem>
-                    {/* <Linkitem href="/about" path={path}>
-                        About
-                    </Linkitem> */}
-                    {/* <Linkitem href="/contact" path={path}>
-                        Contact
-                    </Linkitem> */}
                 </Stack>
 
                 <Box flex={1} align="right">
@@ -92,15 +86,15 @@ const Navbar = (props) => {
                                 aria-label="Options"
                             />
                             <MenuList>
-                                <NextLink href="/" passHref>
+                                {/* <NextLink href="/" passHref>
                                     <MenuItem>About</MenuItem>
-                                </NextLink>
+                                </NextLink> */}
                                 <NextLink href="/projects" passHref>
                                     <MenuItem>Projects</MenuItem>
                                 </NextLink>
-                                <NextLink href="/contact" passHref>
+                                {/* <NextLink href="/contact" passHref>
                                     <MenuItem>Contact</MenuItem>
-                                </NextLink>
+                                </NextLink> */}
                             </MenuList>
                         </Menu>
                     </Box>
