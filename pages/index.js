@@ -104,7 +104,7 @@ const Page = () => {
                         </BioSection>
                     </Section>
                 </Parallax>
-                <Parallax speed={5}>
+                <Parallax speed={-2}>
                     <Section delay={0.3}>
                         <Heading as="h3" variant="section-title">
                             On the web
@@ -169,7 +169,7 @@ const Page = () => {
                         </List>
                     </Section>
                 </Parallax>
-                <Parallax speed={-2}>
+                <Parallax speed={2}>
                     <Section>
                         <Heading as="h3" variant="section-title">
                             Featured Projects
