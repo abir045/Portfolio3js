@@ -16,6 +16,8 @@ import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import { GridItem } from '../components/grid-item'
 import Resume from '../public/images/content/resume.png'
+import Crypto from '../public/images/content/crypto.png'
+import Pearson from '../public/images/content/pearson.jpg'
 import {
     IoLogoTwitter,
     IoLogoInstagram,
@@ -165,11 +167,23 @@ const Page = () => {
                                 </Link>
                             </ListItem>
                         </List>
+                    </Section>
+                </Parallax>
+                <Parallax speed={-2}>
+                    <Section>
+                        <Heading as="h3" variant="section-title">
+                            Featured Projects
+                        </Heading>
                         <SimpleGrid columns={[1, 2, 2]} gap={6}>
                             <GridItem
-                                href="https://drive.google.com/file/d/1XOn0_cPpp5oUp4XVjhZtbmO4pck46Vhe/view?usp=sharing"
-                                title="My Resume"
-                                thumbnail={Resume}
+                                href="https://world-of-crypto.netlify.app/"
+                                title="Crypto App"
+                                thumbnail={Crypto}
+                            ></GridItem>
+                            <GridItem
+                                href="https://pearsonairportlimousines.com/"
+                                title="Pearson Airport Limousine"
+                                thumbnail={Pearson}
                             ></GridItem>
                         </SimpleGrid>
                     </Section>
