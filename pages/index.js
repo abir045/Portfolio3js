@@ -46,7 +46,7 @@ const Page = () => {
                         </Heading>
                         <p>Web Developer | React JS</p>
                     </Box>
-                    <Box
+                    {/* <Box
                         flexShrink={0}
                         mt={{ base: 4, md: 0 }}
                         ml={{ md: 6 }}
@@ -62,10 +62,10 @@ const Page = () => {
                             src="/images/profile.jpg"
                             alt="portfolio image"
                         />
-                    </Box>
+                    </Box> */}
                 </Box>
                 {/* intro section */}
-                <Parallax speed={-5}>
+                <Parallax speed={-2}>
                     <Section delay={0.1}>
                         <Heading as="h3" variant="section-title">
                             Intro
@@ -81,7 +81,7 @@ const Page = () => {
                     </Section>
                 </Parallax>
                 {/* details bio section */}
-                <Parallax speed={5}>
+                <Parallax speed={2}>
                     <Section delay={0.2}>
                         <Heading as="h3" variant="section-title">
                             Bio
